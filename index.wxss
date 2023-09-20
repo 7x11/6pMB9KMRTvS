@@ -1,0 +1,53 @@
+/* Version: 1.0.2 */
+/* Reason: Adjusted the image styling to make sure images display correctly. */
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.category-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10rpx;
+}
+
+.category {
+  flex: 1;
+  padding: 10rpx;
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10rpx;
+}
+
+.product-item {
+  width: 48%;
+  margin-bottom: 10rpx;
+}
+
+.product-image {
+  width: 100%;
+  height: 200rpx;  /* 这里调整了图片的高度 */
+  border: none;  /* 确保没有边框 */
+  background-color: transparent;  /* 确保背景是透明的 */
+}
+
+.product-info {
+  padding: 10rpx;
+}
+
+.product-name {
+  font-size: 14rpx;
+  color: #333;
+}
+
+.product-price {
+  font-size: 16rpx;
+  color: #f00;
+}
